@@ -1,0 +1,19 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SmokeAlert" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="radioButtonStyle">@style/Widget.App.RadioButton</item>
+    </style>
+
+    <style name="Theme.SmokeAlert" parent="Base.Theme.SmokeAlert" />
+
+    <style name="Widget.App.RadioButton" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.RadioButton</item>
+    </style>
+
+    <style name="ThemeOverlay.App.RadioButton" parent="">
+        <item name="colorOnSurface">@color/btn_blue</item>
+        <item name="colorSecondary">@color/btn_red</item>
+    </style>
+</resources>
